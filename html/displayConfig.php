@@ -57,6 +57,24 @@
 
 			</section>
 
+                        <section>
+
+                             <h2>Label<h2>
+
+                             <div class="table" id="labeltable">
+                              
+                                <div class="tableheader">
+
+                                   <p class="tfirstcol">Label Name<p>
+                              
+                                </div>
+
+                                <?php include 'includes/content/tables/labels.php'; ?>
+
+                             </div>
+
+                        </section>
+
 			<?php echo '<p class="tMessage">'.$_SESSION['message'].'</p>'; ?>
 
 		</article>
