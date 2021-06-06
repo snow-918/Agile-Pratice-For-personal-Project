@@ -164,7 +164,7 @@ else
 							}
 						}											
 						// Compare current file to auth file
-						// Display a RED WARNING if there is a difference
+						// Display a RED filename if there is a difference
 						else
 						{
 							
