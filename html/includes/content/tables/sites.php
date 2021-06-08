@@ -68,11 +68,20 @@ else
 
 		// Increment $b
 		$b++;
+                //Determine if a site admin has been assigned to the same site
+                $sql3 = "SELECT * from tasks WHERE siteAdmin = $value";
+                $rs3 = $conn->query($sql3);
+                if ($rs3->num_rows > 0)
+                {
+                  $row2 = $rs3->fetch_assoc();
+                  $siteAdmin = $row2['siteAdmin'];
+                  $sql4 = "DELETE FROM tasks WHERE siteAdmin=$siteAdmin";
+
+                }
 	}
 
 	echo "</div></div>";
 }
-
 // Close the connection
 $conn->close();
 unset($rs, $conn);
