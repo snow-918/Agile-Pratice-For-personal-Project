@@ -74,8 +74,8 @@ else
                 if ($rs3->num_rows > 0)
                 {
                   $row2 = $rs3->fetch_assoc();
-                  $value2 = $row2['siteAdmin'];
-                  $sql4 = "DELETE FROM tasks WHERE siteAdmin=$value2";
+                  $siteAdmin = $row2['siteAdmin'];
+                  $sql4 = "DELETE FROM tasks WHERE siteAdmin=$siteAdmin";
 
                 }
 	}
