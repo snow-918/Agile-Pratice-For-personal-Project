@@ -203,7 +203,7 @@ else
 								else
 								{
 									echo "<p class='confDT'><span style='color:red'>";
-									echo "Differs from auth and previous</span>";
+									echo "Differs from AUTH and PREVIOUS</span>";
 									echo "$cfgTime</p>";
 								}			 
 							}	
