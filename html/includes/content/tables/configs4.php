@@ -164,7 +164,7 @@ else
 							}
 						}											
 						// Compare current file to auth file
-						// Display a RED WARNING if there is a difference
+						// Display a RED filename if there is a difference
 						else
 						{
 							
@@ -203,7 +203,7 @@ else
 								else
 								{
 									echo "<p class='confDT'><span style='color:red'>";
-									echo "Differs from auth and previous</span>";
+									echo "Differs from AUTH and PREVIOUS</span>";
 									echo "$cfgTime</p>";
 								}			 
 							}	
