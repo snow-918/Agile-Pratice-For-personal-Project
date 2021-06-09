@@ -95,7 +95,7 @@
 
 					</div>
 					
-					<?php include 'includes/content/tables/configs4.php'; ?>
+					<?php include 'includes/content/tables/configs5.php'; ?>
 
 				</div>
 
